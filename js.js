@@ -15,6 +15,17 @@ x = wuerfel1 + wuerfel2
     if (spielerAnDerReihe === 2)
 }
 
+function rundeBeenden() {
+
+}
+
+function verflixteSieben() {
+    if (x === 7)
+        punkte1 = punkte2 - 7
+
+    spielerAnDerReihe = 2
+}
+
 function Reload() {
     location.reload()
 }
